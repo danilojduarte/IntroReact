@@ -1,7 +1,8 @@
-const Cabecalho = () => {
+const Cabecalho = (props) => {
+  const { nomeUsuario } = props;
   return (
     <div>
-      Cabecalho
+      Bem-vindo, {nomeUsuario}
     </div>
   );
 };
