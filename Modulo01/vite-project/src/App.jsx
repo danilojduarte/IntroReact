@@ -1,4 +1,4 @@
-import { Cabecalho } from './components';
+import { Cabecalho, Conteudo } from './components';
 
 import './App.css'
 
@@ -6,8 +6,11 @@ const App = () => {
   return (
     
     <>
-    <h1>Hello World!</h1>
     <Cabecalho nomeUsuario="Danilo" />
+    <Conteudo>
+      <h1>Titulo</h1>
+      <p>Texto</p>
+    </Conteudo>
     </>
   )
 };
