@@ -1,14 +1,17 @@
 import style from './Rodape.module.css';
 
-const Rodape = () => {
-  
+const Rodape = (props) => {
+  const { criador } = props;
+
+  const anoAtual = ( new Date()).getFullYear();
+
   return (
-    <div className={style.Rodape}>
+    <div className={ style.Rodape }>
       <h4>
-        Projeto Basico - 2024 Danilo Duarte
+        Projeto React Basico - { anoAtual } - { criador }
       </h4>
     </div>
   );
 };
 
-export {Rodape};
+export { Rodape };
