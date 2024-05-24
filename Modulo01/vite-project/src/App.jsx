@@ -11,7 +11,7 @@ const App = () => {
       <h1>Titulo</h1>
       <p>Texto</p>
     </Conteudo>
-    <Rodape />
+    <Rodape criador="Danilo"/>
     </>
   )
 };
