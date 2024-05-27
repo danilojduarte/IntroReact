@@ -1,17 +1,20 @@
 import { Cabecalho, Conteudo, Rodape } from './components';
+import { Inicial } from './pages';
 
 import './App.css'
+
 
 const App = () => {
   return (
     
     <>
-    <Cabecalho nomeUsuario="Danilo" />
+    <Cabecalho 
+    nomeUsuario="Danilo" />
     <Conteudo>
-      <h1>Titulo</h1>
-      <p>Texto</p>
+    <Inicial />
     </Conteudo>
-    <Rodape criador="Danilo"/>
+    <Rodape 
+    criador="Danilo"/>
     </>
   )
 };
