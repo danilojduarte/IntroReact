@@ -7,7 +7,7 @@ const ListaTarefasItem = (props) => {
 
   return (
     <li className={style.ListaTarefasItem}>
-        { nome }
+        {nome}
         <Botao texto="-" tipo={ TIPO_BOTAO.SECUNDARIO } />
     </li>
   );
