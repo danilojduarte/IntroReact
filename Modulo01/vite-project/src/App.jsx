@@ -12,13 +12,6 @@ const App = () => {
     
     <BrowserRouter>
     <Router />
-    {/* <Cabecalho 
-    nomeUsuario="Danilo" />
-    <Conteudo>
-    <Inicial />
-    </Conteudo>
-    <Rodape 
-    criador="Danilo"/> */}
     </BrowserRouter>
   )
 };
